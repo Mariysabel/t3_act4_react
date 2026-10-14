@@ -1,0 +1,180 @@
+body {
+  font-family: Arial;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 500px;
+  max-width: 90%;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(204, 10, 159, 0.2);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  color: rgb(177, 0, 171);
+  padding: 10px;
+  margin: 0;
+  background-color: #ffddfa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(204, 10, 159, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #801c78;
+  margin-bottom: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: #801c78;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #a17ca9;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  background-color: #6f0066;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #801c78;
+}
+
+
+.contador {
+  text-align: center;
+  padding: 25px;
+  margin: 30px 20px;
+  background-color: #ffddfa;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(204, 10, 159, 0.2);
+}
+
+.valorContador {
+  font-size: 42px;
+  font-weight: bold;
+  color: #801c78;
+  margin: 20px 0;
+}
+
+.botonesContador {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contador .botonesContador button {
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: #6f0066;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.contador .botonesContador button:hover {
+  background-color: #801c78;
+  transform: scale(1.1);
+}
+
+.contador .botonMostrar {
+  width: auto;
+  height: auto;
+  padding: 12px 20px;
+  margin: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #801c78;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contador .botonMostrar:hover {
+  background-color: #6f0066;
+}
+
+.etiquetaPuntaje {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  padding: 12px 20px;
+  background-color: white;
+  color: #801c78;
+  border: 2px solid #d98bd2;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.info {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffddfa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(204, 10, 159, 0.2);
+}
+
+.info h1 {
+    color: #801c78;
+}
+
+.info p {
+    color: #6f0066;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
