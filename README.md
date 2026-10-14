@@ -51,7 +51,7 @@ De esta manera, React puede distinguir cada elemento de la lista correctamente.
 
 `useState` es un hook de React que permite guardar y actualizar información dentro de un componente funcional. Devuelve el valor actual del estado y una función para modificarlo. Cuando se actualiza, React vuelve a renderizar el componente para reflejar los cambios.
 
-En mi mini aplicación lo utilicé en el componente `Skills` para guardar una lista de elementos en una variable llamada `notas`.
+En la aplicación lo utilicé en el componente `Skills` para guardar una lista de elementos en una variable llamada `notas`.
 
 ```jsx
 const [notas, setNotas] = useState(arregloNotas);
